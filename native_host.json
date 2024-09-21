@@ -1,0 +1,9 @@
+{
+	"name": "com.sunorg.sunbutton_host",
+	"description": "Host app, launched when SunButton™️ is clicked",
+	"path": "C:\\0\\Prog\\OperaButton\\message_parser.exe",
+	"type": "stdio",
+	"allowed_origins": [
+		"chrome-extension://epdbkpeeikefdglicajhlhnmgjghmkpd/"
+	]
+}
