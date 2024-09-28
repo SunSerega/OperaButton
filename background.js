@@ -3,10 +3,12 @@
 
 let button_id = "sun-button";
 
-chrome.contextMenus.create({
-	id: button_id,
-	title: "Download",
-	contexts: ["all"],
+chrome.contextMenus.removeAll(function() {
+	chrome.contextMenus.create({
+		id: button_id,
+		title: "Download",
+		contexts: ["all"],
+	});
 });
 
 function on_click(info, tab) {
